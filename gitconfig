@@ -1,0 +1,24 @@
+[push]
+    default = matching
+[color]
+    status = auto
+    ui = true
+
+[alias]
+    st = status
+    cl = clone
+    ci = commit
+    ca = commit -a
+    co = checkout
+    cp = cherry-pick
+    pl = pull
+    ps = push
+    br = branch
+    ss = stash
+    dc = diff --cached
+    mt = mergetool
+    ll = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    # git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --grep [表格] --invert-grep
+[core]
+    excludesfile = /root/.gitignore
+	editor = vim
